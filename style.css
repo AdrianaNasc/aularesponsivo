@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+@media (min-width: 800px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media (max-width: 900px) {
+  body {
+    background-color: red;
+  }
+}
+@media (min-width: 300px) and (max-width: 400px) {
+  li {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 800px) {
+  header {
+    display: flex;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 800px) {
+  header nav {
+    width: 30vw;
+    border: solid 2px gray;
+  }
+}
+@media (max-width: 800px) {
+  header nav ul {
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    list-style: nome;
+  }
+}/*# sourceMappingURL=style.css.map */
